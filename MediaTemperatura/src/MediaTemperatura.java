@@ -33,9 +33,45 @@ public class MediaTemperatura {
           avg = sum / length;
 
 
-        System.out.println("A média das temperaturas do primeiro semestre do ano foram: " + avg );
+        System.out.println("A média das temperaturas do primeiro semestre do ano foi: " + avg );
+        System.out.println("----------------------------------------"); 
+
+        System.out.println("Os meses acima da média semestral foram: ");
+
+        if (temperaturas.get(0) >= avg) {
+            System.out.println("1-Janeiro "+ temperaturas.get(0) + "°C");
+        } else{
+
+        }
+        if (temperaturas.get(1) >= avg) {
+            System.out.println("2-Fevereiro "+ temperaturas.get(1) + "°C");
+        } else{
+
+        }
+        if (temperaturas.get(2) >= avg) {
+            System.out.println("3-Março "+ temperaturas.get(2) + "°C");
+        }else{
+
+        }
+        if (temperaturas.get(3) >= avg) {
+            System.out.println("4-Abril "+ temperaturas.get(3) + "°C");
+        } else{
+
+        }
+        if (temperaturas.get(4) >= avg) {
+            System.out.println("5-Maio "+ temperaturas.get(4) + "°C");
+        } else{
+
+        }
+        if (temperaturas.get(5) >= avg) {
+            System.out.println("6-Junho "+ temperaturas.get(5) + "°C");
+        } else {
+            
+        }
         
+        temperatura.close();
     }
+    
 }
        
 
