@@ -19,7 +19,7 @@ public class MediaTemperatura {
         }
 
         System.out.println("----------------------------------------");     
-        System.out.println("Todas as temperaturas: " + temperaturas);
+        System.out.println("Todas as temperaturas do primeiro semestre: " + temperaturas);
         System.out.println("----------------------------------------"); 
 
         float avg, sum = 0;
@@ -33,10 +33,10 @@ public class MediaTemperatura {
           avg = sum / length;
 
 
-        System.out.println("A média das temperaturas do primeiro semestre do ano foi: " + avg );
+        System.out.println("A média das temperaturas do primeiro semestre do ano foi de " + avg + "°C");
         System.out.println("----------------------------------------"); 
 
-        System.out.println("Os meses acima da média semestral foram: ");
+        System.out.println("Os meses com as temperaturas acima da média semestral foram: ");
 
         if (temperaturas.get(0) >= avg) {
             System.out.println("1-Janeiro "+ temperaturas.get(0) + "°C");
@@ -68,7 +68,7 @@ public class MediaTemperatura {
         } else {
             
         }
-        
+
         temperatura.close();
     }
     
