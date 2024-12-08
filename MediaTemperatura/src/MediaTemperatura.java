@@ -22,48 +22,48 @@ public class MediaTemperatura {
         System.out.println("Todas as temperaturas do primeiro semestre: " + temperaturas);
         System.out.println("----------------------------------------"); 
 
-        float avg, sum = 0;
+        float media, soma = 0;
 
         int length = temperaturas.size();
 
         for (double temp : temperaturas) {
-            sum += temp;
+            soma += temp;
           }
 
-          avg = sum / length;
+          media = soma / length;
 
 
-        System.out.println("A média das temperaturas do primeiro semestre do ano foi de " + avg + "°C");
+        System.out.println("A média das temperaturas do primeiro semestre do ano foi de " + media + "°C");
         System.out.println("----------------------------------------"); 
 
         System.out.println("Os meses com as temperaturas acima da média semestral foram: ");
 
-        if (temperaturas.get(0) >= avg) {
+        if (temperaturas.get(0) >= media) {
             System.out.println("1-Janeiro "+ temperaturas.get(0) + "°C");
         } else{
 
         }
-        if (temperaturas.get(1) >= avg) {
+        if (temperaturas.get(1) >= media) {
             System.out.println("2-Fevereiro "+ temperaturas.get(1) + "°C");
         } else{
 
         }
-        if (temperaturas.get(2) >= avg) {
+        if (temperaturas.get(2) >= media) {
             System.out.println("3-Março "+ temperaturas.get(2) + "°C");
         }else{
 
         }
-        if (temperaturas.get(3) >= avg) {
+        if (temperaturas.get(3) >= media) {
             System.out.println("4-Abril "+ temperaturas.get(3) + "°C");
         } else{
 
         }
-        if (temperaturas.get(4) >= avg) {
+        if (temperaturas.get(4) >= media) {
             System.out.println("5-Maio "+ temperaturas.get(4) + "°C");
         } else{
 
         }
-        if (temperaturas.get(5) >= avg) {
+        if (temperaturas.get(5) >= media) {
             System.out.println("6-Junho "+ temperaturas.get(5) + "°C");
         } else {
             
